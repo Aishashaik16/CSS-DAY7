@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main {
+    text-align: center;
+}
+.a1 {
+    height: 350px;
+    width: 280px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: red;
+}
+h2,
+p {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    text-align: left;;
+}
+h2{
+    margin-top: 10%;
+}
+
+ .a1:hover a,
+.a1:hover i {
+    color: red;
+    background-color: white;
+} 
+
+button {
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: rgb(244, 96, 96);
+    border: none;
+    margin: 35px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.a2,
+.a3,
+.a4 {
+    background-color: white;
+    height: 350px;
+    width: 280px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: red;
+    background-color: lightpink;
+    Position:relative; 
+    Top:20%; 
+    Left:50%;
+    transform:translate(-50%, -50%);
+}
+.icon>i{
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-size: 30px;
+    transform: translate(-50%,-50%);
+}
+h4{
+    margin-top: 25%;
+    color:black;
+    font-weight: bold;
+    font-size:20px;
+}
+.p1,.p2,.p3{
+    margin-top:10%;
+    color:black;
+    text-align: center;
+}
+.a2:hover>.icon,.a3:hover>.icon,.a4:hover>.icon{
+    background-color: red;
+    color:lightpink;
+}
+
